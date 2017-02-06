@@ -1,0 +1,14 @@
+#forgot-password-container {
+    .column {
+        max-width: 450px;
+    }
+    margin-top: 0px;
+
+    .ui.stacked.segment, .ui.message{
+        background-color: rgba(255,255,255,0.75)
+    }
+
+    #confirm-text {
+        color: white;
+    }
+}

@@ -1,0 +1,86 @@
+#map-view-container { 
+    .leaflet-container {
+        height: 3000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #map-mode-controls {
+        margin-left: -8px;
+    }
+
+    #filter-box {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        margin-left: 10px;
+        width: 300px;
+        z-index: 100;
+        box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.15);
+
+        div.dropdown {
+            width: 83%;
+        }
+
+        .button {
+            margin-left: 5px;
+            margin-right: 0px;
+        }
+    }
+
+    .half-width {
+        width: 50%;
+    }
+
+    .info-text {
+        float:right;
+    }
+
+    .ui.loading.form:before {
+        background: rgba(0,0,0,.3);
+    }
+    
+    .leaflet-top.leaflet-left {
+        margin-top: 10px;
+    }
+
+    #thumb-container {
+        padding-top: 0px;
+        padding-bottom: 4px;
+    }
+
+    .info-window  {
+        .name {
+            padding-bottom: 0px;
+        }
+
+        .details-left {
+            padding-right: 4px;
+        } 
+
+        .details-right {
+            padding-left: 4px;
+        } 
+
+        .divider-holder {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .photos-holder {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .button {
+            margin-bottom: 10px;
+        }
+
+        #button-group {
+            padding: 0px;
+        }
+
+    }
+
+}

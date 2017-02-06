@@ -1,0 +1,77 @@
+#edit-building-container, #add-building-container { 
+    .leaflet-container {
+        height: 350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .dropzone-style {
+        width: 100%;
+        height: 100px;
+        border-width: 2px;
+        border-color: #666;
+        border-style: dashed;
+        border-radius: 5px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .standard-bubble {
+        margin-top: 28px;
+    }
+
+    .textarea-bubble {
+        margin-top: 36px;
+    }
+
+    .field-header {
+        margin-top: 0em;
+        margin-bottom: 0.5em;
+    }
+
+    .existing-image-div {
+        display: inline;
+        margin-right: 20px;
+    }
+}
+
+#show-building-container {
+    .leaflet-container {
+        height: 250px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pswp-thumbnail {
+        display: inline;
+    }
+
+    .reviewee {
+        font-size: 0.8em;
+    }
+
+    #primary-img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    #neighborhood-header {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    #building-desc-header {
+        margin-top: 0px;
+    }
+
+    #title-header {
+        margin-bottom: 5px;
+    }
+
+    #units-table {
+        margin-top: 25px;
+    }
+}

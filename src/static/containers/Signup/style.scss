@@ -1,0 +1,11 @@
+#signup-container {
+    .column {
+        max-width: 450px;
+    }
+
+    .ui.stacked.segment, .ui.message{
+        background-color: rgba(255,255,255,0.75)
+    }
+
+    margin-top: 0px;
+}

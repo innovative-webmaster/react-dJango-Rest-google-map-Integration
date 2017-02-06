@@ -1,0 +1,56 @@
+#home-view-container { 
+    .ui.button {
+        width: 300px;
+    }
+
+    .masthead.segment {
+        background: url("./images/splash.jpg") no-repeat center top;
+        min-height: 562px;
+        height: 562px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        h1 {
+            margin-top: 2em;
+            font-size: 3em;
+        }
+
+        .ui.massive.button {
+            margin-top: 10em;
+        }
+    }
+
+    #masthead-content {
+        height: 100%;
+    }
+
+    .ui.vertical.stripe {
+        padding: 8em 0em;
+
+        h1 {
+            font-size: 4em;
+        }
+
+        .third.column {
+            width: 33%;
+
+            p {
+                padding-top: 1em;
+            }
+        }
+    }
+
+    #selling-points, #three-benefits {
+        margin-top: 2em;
+    }
+
+    #pitch {
+        background: url("./images/bottom.jpg") no-repeat center top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
